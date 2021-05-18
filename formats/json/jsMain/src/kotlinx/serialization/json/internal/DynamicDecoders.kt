@@ -211,6 +211,7 @@ private class DynamicMapInput(
     }
 }
 
+@OptIn(ExperimentalSerializationApi::class)
 private class DynamicListInput(
     value: dynamic,
     json: Json,
